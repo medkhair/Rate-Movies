@@ -1,0 +1,234 @@
+body{
+	background-color: #111111;
+	font-family: 'Jim Nightshade', sans-serif;                               
+}
+nav{
+	width: 100%;
+	background-color: #111111;
+}
+.nav-item a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	bottom: 25%;
+	right: 5%;
+}
+.nav-item{
+	position: relative;
+	width: 50%;
+	margin-left: 33.5px;
+}
+.nav-link{
+	font-size: 24.12px;
+	width: 87.1px;
+	height: 40.2px;
+	text-align: center;
+}
+.nav-item:hover{
+	color: white;
+	background-color: #FF07E6;
+	border-radius: 3px;
+}
+#browse:hover{
+	color: white;
+	background-color: #48F4FF;
+	border-radius: 3px;
+}
+.collapse{
+	margin-top: 16.75px;
+	margin-left: 147.4px;
+}
+.navbar-brand{
+	font-family: 'Post No Bills Colombo', sans-serif;
+	font-size: 26.8px;
+	width: 201px;
+	height: 40.2px;
+	margin-top: 13.5px;
+	margin-left: 75px;
+	text-align: center;
+	position: relative;
+}
+.navbar-brand h1{
+	position: relative;
+	bottom: 25%;
+}
+.navbar-brand:hover{
+	color: white;
+	border-radius: 3px;
+}
+#blue{
+	position: absolute;
+	width: 1000px;
+  	height: 800px;
+	background-image: radial-gradient(ellipse 200px 300px at left, #48F4FF, #111);
+  	top: 0;
+  	left: 0;
+}
+#pink{
+	position: absolute;
+	width: 1000px;
+  	height: 800px;
+	background-image: radial-gradient(ellipse 200px 300px at right, #FF07E6, #111);
+	right: 0;
+	top: 0;
+}
+.film, .serie{
+	display: inline-block;
+	margin-right: 13.4px;
+	margin-bottom: 13.4px;
+	position: relative;
+}
+.fs{
+	height: 270px;
+	width: 180px;
+	border-radius: 20px;
+}
+.images{
+	margin-left: 85px;
+	margin-top: 60px;
+}
+.name{
+	position: absolute;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.65);
+	height: 90px;
+	width: 180px;
+	bottom: 0;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.name h1{
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: 30%;
+}
+.page{
+	position: relative;
+	margin-left: 180px;
+	margin-top: 80px;
+}
+.page h2,h1,p{
+	color: white;
+}
+.annoucement{
+	position: relative;
+}
+.fs1{
+	height: 321px;
+	width: 295px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.categorie{
+	background-color: rgba(0, 0, 0, 0.65);
+	height: 150px;
+	width: 295px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.categorie h1{
+	text-align: center;
+	font-size: 50px;
+	position: relative;
+	top: 30%;
+}
+.name1{
+	position: absolute;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.65);
+	height: 100px;
+	width: 295px;
+	bottom: 0;
+}
+.name1 h1{
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: 30%;
+}
+.parts{
+	display: inline-block;
+	margin-right: 13.4px;
+}
+.informations{
+	position: relative;
+	bottom: 334px;
+	height: 471px;
+	width: 670px;
+	display: grid;
+	grid-template-rows: 56px 267px  ;
+}
+.rating{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 56px 92px;
+}
+.grey, .white{
+	background-color: rgba(0, 0, 0, 0.65);
+}
+.grey{
+	background-color: grey;
+}
+.white{
+	background-color: #ACACAC;
+}
+.informations .tab{
+	border-color: #111111;
+	border-style: solid;
+	border-width: 1px;
+}
+.informations h2,p{
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+.informations p{
+	font-size: 25px;
+}
+#tit{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+#r1{
+	border-bottom-left-radius: 20px;
+}
+#r2{
+	border-bottom-right-radius: 20px;
+}
+.bi-star-fill{
+	color: #ffe400;
+}
+.rateNow{
+	background-color: white;
+	width: 176px;
+	height: 37px;
+	position: relative;
+	left: 25%;
+	top: 25%;
+	border-radius: 50px;
+	text-align: center;
+}
+.rateNow input{
+	display: none;
+}
+.rateNow input,label{
+	position: relative;
+	top: 20%;
+	cursor: pointer;
+}
+.rateNow input:checked + label ~ label{
+	color: #ACACAC;
+}
+.rateNow label:active{
+	transform: scale(0.8);
+	transition: 0.3s ease;
+}
+#r2 button{
+	position: relative;
+	left: 80%;
+	bottom: 15%;
+	border-radius: 10px;
+}
